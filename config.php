@@ -4,12 +4,12 @@ return [
     'production' => false,
     'baseUrl' => 'https://artisanstatic.netlify.app',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'Robot Draws You!',
+        'description' => 'An art project and programming experiment designed to delight and entertain.',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
+        'name' => 'Mat Gilbert',
         'twitter' => 'johndoe',
         'github' => 'johndoe',
     ],

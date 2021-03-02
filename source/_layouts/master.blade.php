@@ -20,10 +20,12 @@
     <section>
         <header>
             <nav>
-                <strong>{{ $page->site->title }}</strong><br>
+                <strong id="headerText">{{ $page->site->title }}</strong><br>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/posts">Blog</a></li>
+                    <li><a href="/store">Store</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -38,10 +40,10 @@
 
         <footer>
             <small>
-                &copy; <span data-year></span> {{ $page->owner->name }} &nbsp;&bull;&nbsp;
-                <a href="/feed.atom">RSS</a> &nbsp;&bull;&nbsp;
-                Maintained by Ranie Santos &nbsp;&bull;&nbsp;
-                <a href="https://github.com/raniesantos/artisan-static">GitHub repo</a>.
+                Robot Draws You! &copy; <span data-year></span> <a href="https://www.vtapi.co" target="_blank">vtapi.co</a> &nbsp;&bull;&nbsp;
+                <a href="/colophon">Colophon</a>
+
+
             </small>
         </footer>
     </section>
